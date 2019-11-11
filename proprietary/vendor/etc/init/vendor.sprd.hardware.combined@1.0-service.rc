@@ -1,0 +1,5 @@
+service combined-hal-1-0 /vendor/bin/hw/vendor.sprd.hardware.combined@1.0-service
+    class hal
+    user system
+    group system
+    shutdown critical

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><sunwave:Config xmlns:sunwave="http://www.sunwavecorp.com/some-location" Environment="TEE" platform="项目信息: 请填写项目信息">
+  
+  <diagnosis>
+    <log_level cname="调试信息等级" default="2" desc="LOG 打印等级。默认：LOG_LEVEL_INF" format="array" options="LOG_LEVEL_INF|LOG_LEVEL_ERR" useable="true" values="2|3">0</log_level>
+  </diagnosis>
+  
+  <solution>
+    <trusty_spi_id cname="trusty SPI bus number" default="0" desc="展讯 SPI 总线号。默认：0" format="array" options="SPI_0|SPI_1|SPI_2|SPI_3|SPI_4|SPI_5|SPI_6|SPI_7|SPI_8|SPI_9|SPI_10|SPI_11" useable="true" values="0|1|2|3|4|5|6|7|8|9|10|11">1</trusty_spi_id>
+  </solution>
+  
+  <feature>
+    <key_emulation_mode cname="按键功能模式选择" default="0" desc="按键功能模式选择。默认：禁用按键功能(0)" format="array" options="禁用按键功能(0)|仅传统单击(1)|手指按下报单击(2)|手指抬起报单击或长按(3)|仅长按(4)" useable="true" values="0|1|2|3|4">1</key_emulation_mode>
+  </feature>
+  
+</sunwave:Config>
